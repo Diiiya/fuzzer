@@ -15,7 +15,7 @@ if len(sys.argv) < 2:
 else:
 	filename = sys.argv[1]
 	data = get_bytes(filename)
-  counter = 0
+        counter = 0
 	for x in data:
 		if counter < 10:
 			print(x)
